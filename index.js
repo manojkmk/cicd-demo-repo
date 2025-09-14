@@ -2,8 +2,8 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200);
-  res.end('Hello from CI/CD Pipeline! Updated version mbu');
-   res.end('welcome to expert talk on devops');
+  res.end('Hello from CI/CD Pipeline! Updated version mbu....welcome to devops expert talk');
+
 });
 
 server.listen(3000, '0.0.0.0', () => {
