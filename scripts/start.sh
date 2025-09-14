@@ -1,4 +1,9 @@
 #!/bin/bash
+
 cd /home/ec2-user/app
+
+# Install dependencies
 npm install
-nohup node index.js > app.log 2>&1 &
+
+# Start the app using PM2 with a specific name
+pm2 start index.js --name node-app
