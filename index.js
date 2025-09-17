@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200);
-  res.end('Hello from CI/CD Pipeline');
+  res.end('Hello from CI/CD Pipeline-surendra welcome to MITS');
 
 });
 
